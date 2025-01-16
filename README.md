@@ -31,8 +31,11 @@ pip install nltk tensorflow scikit-learn numpy keras
 
 # Files Overview
 chatbot_model.h5: The saved Keras model after training. This file is used for predicting the user’s intent based on their input.
+
 training_data: A pickle file containing the vocabulary (words), classes (tags), and the training data (patterns and output labels).
+
 intents.json: The JSON file containing user-defined intents. Each intent consists of patterns (possible user inputs) and tags (categories).
+
 chatbot.py: The Python script containing the logic for training and interacting with the chatbot. It processes the intent data, trains a machine learning model, and predicts user intent.
 
 # How to Run
